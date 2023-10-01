@@ -79,6 +79,7 @@ const gameBoard = (() => {
         return { box }
     })();
     
+  // Ai vs Player  Function // However Need to add some difficulty to Ai!
    aiMove = () => {
         
         rndIndexGen = (min, max) => {
